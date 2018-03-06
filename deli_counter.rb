@@ -7,6 +7,6 @@ def line(deli)
     deli.each.with_index(1) do |person, i|
       deli_line << "#{i}. #{person}"
     end
-     deli_line
+    return deli_line
   end
 end
