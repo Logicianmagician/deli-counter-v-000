@@ -1,6 +1,6 @@
 # Write your code here.
 def line(deli)
-  if deli.nil?
+  if deli.nil
     puts "The line is currently empty."
   else
     deli_line = "The line is currently:"
